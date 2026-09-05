@@ -8,7 +8,7 @@ import {
   ImageQualityResult
 } from '../types';
 
-const API_BASE = 'http://192.168.43.191:5000/api';
+const API_BASE = 'https://labelguard-india.onrender.com/api';
 
 export class ApiService {
   private static getToken(): string | null {
