@@ -1,0 +1,8 @@
+{
+  "appId": "com.labelguard.india",
+  "appName": "LabelGuard India",
+  "webDir": "client/dist",
+  "server": {
+    "androidScheme": "http"
+  }
+}

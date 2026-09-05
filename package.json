@@ -1,0 +1,26 @@
+{
+  "name": "labelguard-india",
+  "version": "1.0.0",
+  "description": "Smart Legal Metrology Compliance Assistance & Inspection Platform for Packaged Commodities (SIH26034)",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "test": "cd server && npm test"
+  },
+  "keywords": [
+    "legal-metrology",
+    "packaged-commodities",
+    "sih2026",
+    "compliance",
+    "ocr",
+    "ai-inspection"
+  ],
+  "author": "SIH26034 Team",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^8.5.1",
+    "@capacitor/cli": "^8.5.1",
+    "@capacitor/core": "^8.5.1"
+  }
+}
